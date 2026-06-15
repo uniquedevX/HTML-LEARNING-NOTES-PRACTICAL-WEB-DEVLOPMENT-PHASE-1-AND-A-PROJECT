@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        body {
+            font-family: "POPPINS";
+            margin: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        nav {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            position: solid;
+            top: 0;
+            justify-content: center;
+        }
+
+        iframe {
+            border: 2px solid #333;
+            border-radius: 10px;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            border: #333 solid 1px;
+        }
+
+        froms {
+            border: #333 1px;
+            text-align: center;
+        }
+
+        .class {
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="indexx.html">Home</a>
+        <a href="Anchor.html">Anchor</a>
+        <a href="img.html">Image</a>
+        <a href="Txtformat.html">TextFMT</a>
+        <a href="megaproject.html">Project</a>
+        <a href="tables.html">tables</a>
+        <a href="list.html">Lists</a>
+        <a href="media.html">Media</a>
+        <a href="forms.html">Forms</a>
+    </nav>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <forms>
+            <h1><mark>Forms</mark></h1>
+            <p>
+                Forms are used to collect user input and data on websites. They consist of various elements such as text
+                fields, checkboxes, radio buttons, dropdown menus, and submit buttons. Forms allow users to interact with a
+            website by providing information, making selections, and submitting data for processing. They are essential
+            for tasks like user registration, login, feedback submission, and online purchases.
+        </p>
+        <h2>USER REGISTRATION FORM FOR EXAMPLE SURVEY</h2>
+        <div class="hello">
+            <label for="username">USERNAME:</label>
+            <input type="text" required name="username">
+        </div>
+        <div class="hello">
+            <lable for="password">Password:</lable>
+            <input type="password" required name="password">
+        </div>
+        <div class="hello">
+            <lable for="textarea" aria-placeholder="Message your doubts">Message:</lable>
+            <br>
+            <textarea for="About" name="write about your self" rows="10" cols="40"></textarea>
+        </div>
+        <div class="hello">
+            <lable for="Email">Email:</lable>
+            <input type="email" name="Email">
+        </div>
+        <div class="hello">
+            <lable for="Number">Number:</lable>
+            <input type="number" name="Number">
+        </div>
+        <div class="hello">
+            <lable for="Checkbox">Your Interests:</lable>
+            <input type="checkbox" name="HTML">HTML
+            <input type="checkbox" name="CSS">CSS
+            <input type="checkbox" name="JavaScript">JavaScript
+            <input type="checkbox" name="React">React
+            <input type="checkbox" name="Next.js">Next.js
+        </div>
+        <div class="hello">
+            <label for="radio">YOUR GOAL:</label>
+            <input type="radio" name="goal" value="MERN STACK">Mern Stack
+            <input type="radio" name="goal" value="Java full STACK">Java full stack
+            <input type="radio" name="goal" value="Others">Other 
+        </div>
+        <div>
+            <label for="dropdown">Select your country:</label>
+            <select name="country" id="dropdown">
+                <option value="Nepal">Nepal</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </div>
+        <div>
+            <datalist id="browsers">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="React">
+                <option value="Next.js">
+            </datalist>
+        </div>
+        <label for="file">
+        Upload CV: 
+        </label>
+        <input type="file">
+        <hr>
+        <input type="submit">
+        <input type="reset">
+        <input type="button" value="Join Us">
+    </forms>
+</body>
+</html>
