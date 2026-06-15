@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        body {
+            font-family: "POPPINS";
+            margin: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        img {
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+
+        #image1 {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+        #image2 {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+        }
+        h1{
+            text-align:center;
+        }
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        nav {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            position: solid;
+            top: 0;
+            justify-content: center;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        figure {
+            margin: 0;
+
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="indexx.html">Home</a>
+        <a href="Anchor.html">Anchor</a>
+        <a href="img.html">Image</a>
+        <a href="Txtformat.html">TextFMT</a>
+        <a href="megaproject.html">Project</a>
+        <a href="tables.html">tables</a>
+        <a href="list.html">Lists</a>
+        <a href="media.html">Media</a>
+        <a href="forms.html">Forms</a>
+    </nav>
+    <h1>
+        <mark>Image Tag</mark>
+    </h1>
+    <p>
+        Demonstration of image tag in html:
+    </p>
+    <a href="https://www.instagram.com" target="_blank">
+        <img id="image1" src="https://www.quackit.com/pix/stock/png/html_tutorial_500x200_2.png" alt="code"
+            title="This is image of code">
+    </a>
+    <br>
+    <comment>Use of anchor tag as hyperlink</comment>
+    <br>
+    <hr>
+
+    <!-- image mapping -->
+
+    <img usemap="#img2" id="image2" src="https://www.quackit.com/pix/stock/png/html_tutorial_500x200_2.png" alt="code"
+        title="This is image of code">
+        <br>
+        <comment>Use of image mapping</comment>
+        <hr>
+    <map name="img2">
+        <area shape="rect" coords="0,0,250,200" href="https://www.google.com" alt="Google" target="_blank">
+    </map>
+
+    <!-- picture tag which is used for seo optimization and loading the web page faster  -->
+
+    <picture>
+        <source srcset="https://www.quackit.com/pix/stock/png/html_tutorial_500x200_2.png" media="(max-width: 600px)">
+        <img src="https://www.quackit.com/pix/stock/png/html_tutorial_500x200_2.png" alt="code"
+            title="This is image of code">
+    </picture>
+    <br>
+    <comment>(picture tag) is Used as for seo optimization and loading the web page faster</comment>
+    <hr>
+
+    <!-- figure tag is used to group media content and figcaption is used to provide caption for the media content -->
+       <figure>
+        <img src="https://www.quackit.com/pix/stock/png/html_tutorial_500x200_2.png" alt="code"
+            title="This is image of code">
+        <figcaption>This is example figcaption figure tag </figcaption>
+    </figure>
+    <hr>
+</body>
+</html>

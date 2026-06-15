@@ -1,0 +1,333 @@
+<!-- THIS IS THE WEBSITE AFTER I COMPLETED THE HTML COURSE FROM YOUTUBE THAT CONTAINS ALMOST EVERY HTML NECCESARY COMPONENTS
+AND FOCUSED WITH SEO OPTIMIZATIONS AND I WILL FURTHER ON BEAUTIFY THE DESIGN AFTER LEARNING CSS AND MAKE IT MY PORTOFOLIO AND BLOG -->
+
+<!--WE WILL USE SEMANTIC TAGS AND USE BASIC SEO OPTIMIZATION RULES TO EMBRACE OUR LEANING-->
+<!--Basic SEO 
+Only one <h1> tag should be used per page 
+    Use semantic tags 
+    use more relevant keywords and data-->
+<!-- This is a full website created using HTML as a part of my learning journey in web development. It includes various HTML components and is optimized for SEO. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is a full website created using HTML as a part of my learning journey in web development. It includes various HTML components and is optimized for SEO.">
+    <meta name="keywords"
+        content="HTML, web development, SEO, full website, learning, project, navigation, text formatting, images, media, forms">
+    <meta name="author" content="Unique Shiwakoti">
+    <meta name="robots" content="index, follow">
+    <title>HTML-FULL WEBSITE</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        body {
+            font-family: "POPPINS";
+            margin: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        nav {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            position: solid;
+            top: 0;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+         table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #3b3939;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f8d6d6;
+        }
+        span{
+            color: #ff0000;
+        }
+        img{
+            border: 2px solid #333;
+            border-radius: 130px;
+             width: 100%;
+            max-width: 500px;
+            height: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <a href="indexx.html">Home</a>
+                <a href="Anchor.html">Anchor</a>
+                <a href="img.html">Image</a>
+                <a href="Txtformat.html">TextFMT</a>
+                <a href="megaproject.html">Project</a>
+                <a href="tables.html">tables</a>
+                <a href="list.html">Lists</a>
+                <a href="media.html">Media</a>
+                <a href="forms.html">Forms</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section>
+            <h1>Unique Shiwakoti - <span>Full-Stack Developer Portfolio</span></h1>
+            <p>Welcome to my portfolio! I'm an aspiring full-stack web developer on a self-taught learning journey, currently mastering HTML5 fundamentals as Phase 1 of my development career.</p>
+        </section>
+
+        <!-- About Me Section -->
+        <section>
+            <h2>About Me</h2>
+            <article>
+                <p>Hi! I'm <strong>Unique Shiwakoti</strong>, an enthusiastic and self-motivated learner passionate about web development. I believe in learning through project-based approaches and building real-world applications.</p>
+                <p>My mission is to master Full-Stack Web Development and eventually cross-platform Native Mobile Application development. I document my entire learning journey through practical projects and detailed code comments.</p>
+            </article>
+        </section>
+
+        <!-- Profile Photo Section -->
+        <section>
+            <h2>Profile</h2>
+            <figure>
+                <img src="images/pp.jpeg" alt="Unique Shiwakoti - Full-Stack Developer" title="Profile photo">
+                <figcaption>Unique Shiwakoti - Aspiring Full-Stack Developer</figcaption>
+            </figure>
+        </section>
+
+        <!-- Learning Journey Section -->
+        <section>
+            <h2>My Learning Journey & Roadmap</h2>
+            <article>
+                <p>I've structured my learning into clear, progressive phases:</p>
+                <ol>
+                    <li><strong>Phase 1: HTML5 Fundamentals</strong> - <em>Currently Completed </em>
+                        <ul>
+                            <li>Semantic HTML structure</li>
+                            <li>Text formatting and hierarchy</li>
+                            <li>Navigation and hyperlinks</li>
+                            <li>Images and visual media</li>
+                            <li>Data organization (lists, tables)</li>
+                            <li>Multimedia integration (audio, video, iframes)</li>
+                            <li>Forms and user input</li>
+                        </ul>
+                    </li>
+                    <li><strong>Phase 2: CSS3 & Responsive Design</strong> - <em>In Progress </em>
+                        <ul>
+                            <li>Flexbox and Grid layouts</li>
+                            <li>Media queries and responsiveness</li>
+                            <li>Advanced styling techniques</li>
+                        </ul>
+                    </li>
+                    <li><strong>Phase 3: JavaScript & Interactivity</strong> - <em>Upcoming </em></li>
+                    <li><strong>Phase 4: Full-Stack Development</strong> - <em>Future Goal </em></li>
+                </ol>
+            </article>
+        </section>
+
+        <!-- Skills & Competencies Section -->
+        <section>
+            <h2>Skills Acquired</h2>
+            <article>
+                <h3>HTML5 Expertise:</h3>
+                <ul>
+                    <li>Semantic HTML tags (<code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>)</li>
+                    <li>Text formatting tags (headings, paragraphs, emphasis, strong, mark)</li>
+                    <li>Anchor tags for navigation (absolute, relative, smooth scrolling)</li>
+                    <li>Image tags with alt text and responsive attributes</li>
+                    <li>Picture tag for SEO optimization</li>
+                    <li>Figure and figcaption for media grouping</li>
+                    <li>Image mapping with map and area tags</li>
+                    <li>Lists (ordered, unordered, description)</li>
+                    <li>HTML tables with proper structure</li>
+                    <li>Audio and video embedding</li>
+                    <li>Iframe for multimedia embedding</li>
+                    <li>Form elements and input types</li>
+                    <li>Textarea and select dropdowns</li>
+                    <li>Meta tags for SEO optimization</li>
+                </ul>
+                <h3>Best Practices:</h3>
+                <ul>
+                    <li>Mobile-first responsive design principles</li>
+                    <li>Search Engine Optimization (SEO) fundamentals</li>
+                    <li>Accessibility standards</li>
+                    <li>Code documentation with comments</li>
+                    <li>Version control awareness</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2>Learning Projects</h2>
+            <article>
+                <p>During Phase 1, I've created multiple focused HTML learning pages, each demonstrating specific HTML concepts:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>File</th>
+                            <th>Key Concepts</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Text Formatting Playground</td>
+                            <td>Txtformat.html</td>
+                            <td>Headings, paragraphs, text emphasis</td>
+                            <td> Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Anchor & Navigation Lab</td>
+                            <td>Anchor.html</td>
+                            <td>Hyperlinks, smooth scrolling, target attributes</td>
+                            <td> Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Image Showcase</td>
+                            <td>img.html</td>
+                            <td>Images, picture tag, figure, image mapping</td>
+                            <td> Completed</td>
+                        </tr>
+                        <tr>
+                            <td>List Structures</td>
+                            <td>list.html</td>
+                            <td>Ordered, unordered, description lists</td>
+                            <td> Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Data Tables</td>
+                            <td>tables.html</td>
+                            <td>Table structure, headers, data organization</td>
+                            <td> Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Multimedia Integration</td>
+                            <td>media.html</td>
+                            <td>Audio, video, iframes, embedded content</td>
+                            <td> Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Form Building</td>
+                            <td>forms.html</td>
+                            <td>Input types, textarea, select, validation</td>
+                            <td> Completed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <!-- SEO & Best Practices Section -->
+        <section>
+            <h2>SEO Optimization & Best Practices Applied</h2>
+            <article>
+                <dl>
+                    <dt><strong>Single H1 Tag per Page</strong></dt>
+                    <dd>Every page has only one main H1 tag for proper hierarchy</dd>
+                    
+                    <dt><strong>Semantic HTML Structure</strong></dt>
+                    <dd>Using header, nav, main, article, section, footer tags for better search engine understanding</dd>
+                    
+                    <dt><strong>Meta Tags Optimization</strong></dt>
+                    <dd>Proper meta description, keywords, author, and robots directives for better indexing</dd>
+                    
+                    <dt><strong>Descriptive Alt Text</strong></dt>
+                    <dd>All images include meaningful alt text for accessibility and SEO</dd>
+                    
+                    <dt><strong>Proper Link Structure</strong></dt>
+                    <dd>Using absolute and relative links appropriately with clear anchor text</dd>
+                    
+                    <dt><strong>Content Organization</strong></dt>
+                    <dd>Logical heading hierarchy and structured content for better readability</dd>
+                    
+                    <dt><strong>Mobile-Friendly Design</strong></dt>
+                    <dd>Responsive viewport meta tag for mobile optimization</dd>
+                </dl>
+            </article>
+        </section>
+
+        <!-- Resources & Learning Section -->
+        <section>
+            <h2>Learning Resources & Credits</h2>
+            <article>
+                <p>My learning journey has been guided by quality online resources:</p>
+                <ul>
+                    <li><a href="https://www.youtube.com" target="_blank" title="YouTube - Web Development Tutorials">YouTube Web Development Tutorials</a> - Comprehensive video guides</li>
+                    <li><a href="https://www.w3schools.com" target="_blank" title="W3Schools - HTML Reference">W3Schools HTML Reference</a> - Technical documentation</li>
+                    <li><a href="https://developer.mozilla.org" target="_blank" title="MDN Web Docs">MDN Web Docs</a> - Mozilla's developer documentation</li>
+                    <li>Project-based learning through hands-on experimentation</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Contact & Connect Section -->
+        <section>
+            <h2>Connect With Me</h2>
+            <article>
+                <p>I'm always eager to learn, collaborate, and share knowledge! Feel free to reach out:</p>
+                <ul>
+                    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/uniqueshiwakoti6/" target="_blank" title="Visit Unique Shiwakoti on Instagram">@uniqueshiwakoti6</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/uniquedevX" target="_blank" title="Visit GitHub Profile">View my repositories</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:uniqueshiwakotidev@gmail.com">uniqueshiwakotidev@gmail.com</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section>
+            <h2>My Next Steps</h2>
+            <article>
+                <p>After completing HTML5 fundamentals, my immediate focus is:</p>
+                <ol>
+                    <li>Master <strong>CSS3</strong> for visual design and responsive layouts</li>
+                    <li>Learn <strong>JavaScript</strong> for interactivity and DOM manipulation</li>
+                    <li>Build full-stack applications with modern frameworks</li>
+                    <li>Develop cross-platform mobile applications</li>
+                </ol>
+                <p>This portfolio will evolve alongside my learning journey, eventually incorporating CSS styling and JavaScript functionality as I progress through the phases.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+            <p style="text-align:center;">Copyright &copy; 2024 Unique Shiwakoti. All rights reserved.</p>
+    </footer>
+
+</body>
+
+
+</html>
