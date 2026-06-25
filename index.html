@@ -1,90 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONBOARDING</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-        body {
-            font-family: "POPPINS";
-            margin: 20px;
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: #333;
-        }
-
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        h1 , h2{
-            text-align: center;
-            margin: 20px;
-            padding: 30px;
-        }
-
-        comment {
-            text-align: center;
-        }
-        ul{
-            text-size-adjust: 20px;
-        }
-        #button1{
-            margin: 45%;
-            size: 20px;
-        }
-        
-        span{
-           color:red;
-
-        }
-        #button2{
-            padding: 12px;
-        }
-    </style>
+    <meta name="description" content="Lila Groceries - Best Grocery store in the market">
+    <title>Lila Groceries | Fresh & Healthy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<!-- the span tag is used for inline changebale elment where as div tags are for divisions -->
- <!-- the id is for individuality where as class is for collectively same-->
-  <!-- Like name is Unique and Class is 12 where class can be attained by other elemts too but name can't-->
 <body>
-    <h1>
-        THE ULTIMATE <span>PROJECT BASED NOTES </span> ON HTML 
-    </h1>
-    <comment>This project is only made by html and little amount of css to show the important tags that will be used in
-        webdevlopment and futher the css notes and projects will be also coming where I am in the learning phase
-        webdevlopment so i will share the resources and what i have learned! checkout my github profile for completed
-        source code!   --     Unique Shiwakoti(Enthusiastic Learner)</comment>
 
-<h2>
-    What you will learn here!?
-</h2>
-<ul>
-    <li>Complete Important tags on HTML To stop wasting time learning all of them with comment and explanation.(In source code) </li>
-    <li>Seprated Tag contents in Source code so you can learn easily</li>
-    <li>Little knowledge of CSS too for futher easy upgarde on css</li>
-    <li>Only useful and real life tags used not unncesary ones</li>
-    <li>also mention youtube resources to learn</li>
-    <li>Click the below button and start learning</li>
-</ul>
-<a id="button2" href="indexx.html">
-    <a href="https://github.com/uniquedevX" target="_blank"
-        title="Click here to go to GITHUB ACC">Visit My GITHUB</a>
-    </a>
-<a id="button1" href="indexx.html">
-<input type="button" value="click here to continue">
-</a>
+
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h3>Lila Groceries</h3>
+            </div>
+            <nav class="navlinks">
+                <a href="#home">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fresh Groceries, Delivered Daily</h1>
+            <p>The best grocery store in the Market!</p>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="shop" class="shop-section">
+        <div class="container">
+            <h2 class="section-title">Products</h2>
+            
+            <div class="product-grid">
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?auto=format&fit=crop&w=400&q=80" alt="Fresh Apples" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Apples</h3>
+                        <p class="card-price">Rs 150 / kg</p>
+                        <a href="#" class="card-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?auto=format&fit=crop&w=400&q=80" alt="Fresh Vegetables" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Broccoli</h3>
+                        <p class="card-price">Rs30 / pc</p>
+                        <a href="#" class="card-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&q=80" alt="Whole Wheat Bread" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Bread</h3>
+                        <p class="card-price">Rs 150 / packet</p>
+                        <a href="#" class="card-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=400&q=80" alt="Fresh Milk" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Organic Milk</h3>
+                        <p class="card-price">Rs 70 / litre</p>
+                        <a href="#" class="card-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                    <div class="card">
+                    <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=400&q=80" alt="Fresh Milk" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Organic Milk</h3>
+                        <p class="card-price">Rs 70 / litre</p>
+                        <a href="#" class="card-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=400&q=80" alt="Fresh Milk" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Organic Milk</h3>
+                        <p class="card-price">Rs 70 / litre</p>
+                        <a href="#" class="card-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Have questions about our items, delivery fees, or bulk orders? Reach out to us directly!</p>
+                    <br>
+                    <p><strong> Address:</strong> Jhapa Nepal</p>
+                    <p><strong> Phone:</strong> 980939237974</p>
+                    <p><strong>Email:</strong> uniquedevx@gmail.com</p>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required placeholder="Unique Shiwakoti">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required placeholder="uniqueshiwakoti@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="Type your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lila Groceries. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
-
 </html>
