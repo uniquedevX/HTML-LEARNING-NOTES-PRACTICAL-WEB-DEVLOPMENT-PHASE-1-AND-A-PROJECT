@@ -32,6 +32,8 @@ Practice On HTML/
 ├── audio/
 │   └── audio.mp3           # 🔊 Sample audio file for media demonstrations
 └── README.md               # 📖 This file
+This Repository also contains demo website html file for a e-commerec platform
+
 ```
 
 ---
