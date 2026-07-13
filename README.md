@@ -4,13 +4,14 @@ Welcome to my **HTML Learning Repository**! 🚀
 
 I'm **Unique Shiwakoti**, an enthusiastic developer on a project-based learning journey. This repository demonstrates my mastery of **HTML5 fundamentals** through organized, well-documented practice pages. Each file focuses on specific HTML topics with inline comments explaining key concepts.
 
+
 ---
 
 ## 📚 Project Overview
 
 This is a comprehensive **HTML learning project** showcasing essential HTML tags and concepts through separate, focused pages. Rather than building one complex project, I've organized this as a **modular learning resource** where each page demonstrates specific HTML topics with clear explanations and examples.
 
-Directly observe the project live in : htmlphasenotes.netlify.app
+Directly observe the project live in : https://htmlphasenotes.netlify.app/
 
 **Key Philosophy:** *Learn by doing, understand through examples, and document your learning.*
 
